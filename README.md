@@ -14,13 +14,19 @@ For example:
 
 
 ## Setup Instructions (MacOS)
-1. Clone the repository:
+1. Create a virtual environment:
+   ```
+   python3 -m venv myvenv
+   source myvenv/bin/activate
+   ```
+   
+2. Clone the repository:
    ```
    git clone https://github.com/akashbhalotia/WealthManagement.git
    cd WealthManagement
    ```
    
-2. Install dependencies from `requirements.txt`.
+3. Install dependencies from `requirements.txt`.
    ```
    pip install -r requirements.txt
    ```
