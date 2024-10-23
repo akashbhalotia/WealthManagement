@@ -2,6 +2,15 @@
 
 A Django application that extracts financial data from a transcript file (.txt) uploaded by the user.
 
+The application extracts a list of facts (sentences) from the uploaded transcript, under three categories:
+
+- **Assets**
+- **Expenditures**
+- **Income**
+
+For example:
+
+> "Martin is a partner in a law firm in London, earning an average of £15,000 per month before taxes."
 
 
 ## TODO
@@ -17,7 +26,7 @@ A Django application that extracts financial data from a transcript file (.txt) 
 - Implement caching with Redis or Memcached for improved performance.
 - Set up automated testing (unit, integration, load tests).
 
-### Functionality
+### Better Functionality Ideas
 - Option to re-generate assets/expenditures/income of a given transcript. Currently this can be done by re-uploading the same file again (PUT operation).
   Provide separate API endpoint for it. Frontend can have a refresh button which calls this to re-generate the extracted financial data. Useful when
   LLM hallucinates or encounters errors.
