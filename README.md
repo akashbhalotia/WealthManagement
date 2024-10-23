@@ -36,6 +36,16 @@ For example:
    export OPENAI_API_KEY='paste your API key here'
    ```
 
+5. Run the server:
+   ```
+   python manage.py runserver
+   ```
+
+6. Open your browser and enter the following url:
+   ```
+   http://127.0.0.1:8000/api/transcripts/
+   ```
+
 
 
 ## TODO
