@@ -1,6 +1,6 @@
 # WealthManagement
 
-A Django application 
+A Django application that allows 
 
 
 ## TODO
@@ -31,3 +31,7 @@ A Django application
 - APIs to enable higher level of customization, such as selecting timeout duration. Selecting LLM model. Setting temperature, etc.
 
 - Allow editing of extracted financial data. Useful to include additional notes.
+
+- Improve project name and app name.
+
+- Handle timeout better. Can use a library (example celery) to continue extraction of financial data as a background task, instead of timing out.
