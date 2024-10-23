@@ -13,7 +13,7 @@ For example:
 > "Martin is a partner in a law firm in London, earning an average of £15,000 per month before taxes."
 
 
-## Setup Instructions
+## Setup Instructions (MacOS)
 1. Clone the repository:
    ```
    git clone https://github.com/akashbhalotia/WealthManagement.git
