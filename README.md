@@ -13,6 +13,22 @@ For example:
 > "Martin is a partner in a law firm in London, earning an average of £15,000 per month before taxes."
 
 
+## Setup Instructions
+1. Clone the repository:
+   ```
+   git clone https://github.com/akashbhalotia/WealthManagement.git
+   cd WealthManagement
+   ```
+   
+2. Install dependencies from `requirements.txt`.
+   
+3. Set OpenAI API Key:
+   ```
+   export OPENAI_API_KEY='paste your API key here'
+   ```
+
+
+
 ## TODO
 
 ### Productionization Ideas
@@ -45,3 +61,5 @@ For example:
 - Improve project name and app name.
 
 - Handle timeout better. Can use a library (example celery) to continue extraction of financial data as a background task, instead of timing out.
+
+- Improve documentation.
