@@ -1,0 +1,10 @@
+# Virtual environment
+myvenv/
+*.pyc
+__pycache__/
+db.sqlite3  # Ignoring SQLite database
+.DS_Store   # Mac-specific hidden files
+*.log
+.idea/      # PyCharm IDE settings
+*.env       # Environment variable files
+.env/
