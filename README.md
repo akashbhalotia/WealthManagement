@@ -46,6 +46,31 @@ For example:
    http://127.0.0.1:8000/api/transcripts/
    ```
 
+## API Use
+1. Get Transcript List:
+   ```
+   GET http://127.0.0.1:8000/api/transcripts/
+   ```
+   
+2. Upload a new Transcript:
+   ```
+   POST http://127.0.0.1:8000/api/transcripts/
+   ```
+
+3. Get Transcript Details:
+   ```
+   GET http://127.0.0.1:8000/api/transcripts/<id>/
+   ```
+
+4. Update Transcript Details:
+   ```
+   PUT http://127.0.0.1:8000/api/transcripts/<id>/
+   ```
+
+5. Delete a Transcript:
+   ```
+   DELETE http://127.0.0.1:8000/api/transcripts/<id>/
+   ```
 
 
 ## TODO
