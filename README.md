@@ -74,12 +74,12 @@ For example:
 
 ## Code Structure and Details:
 
-financialInfoExtractor is the the Django project.
-transcriptDataExtractor is the Django app.
-
-Currently uses OpenAI gpt-4o to extract financial data.
-Timeout is set to 10 seconds. Max file size is 1000 KB.
-Allows only .txt files to be uploaded.
+- **financialInfoExtractor** is the the Django project.
+- **transcriptDataExtractor** is the Django app.
+- Uses OpenAI **gpt-4o** to extract financial data.
+- Timeout is set to **10 seconds**.
+- Max file size is **1000 KB**.
+- Allows only **.txt files** to be uploaded.
 
 
 ## TODO
