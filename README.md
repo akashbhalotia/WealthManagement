@@ -1,6 +1,7 @@
 # WealthManagement
 
-A Django application that allows 
+A Django application that extracts financial data from a transcript file (.txt) uploaded by the user.
+
 
 
 ## TODO
