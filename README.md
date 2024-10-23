@@ -21,8 +21,11 @@ For example:
    ```
    
 2. Install dependencies from `requirements.txt`.
+   ```
+   pip install -r requirements.txt
+   ```
    
-3. Set OpenAI API Key:
+4. Set OpenAI API Key:
    ```
    export OPENAI_API_KEY='paste your API key here'
    ```
